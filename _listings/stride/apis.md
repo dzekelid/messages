@@ -24,7 +24,7 @@ apis:
   tags: Messaging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/stride/site-cloudid-conversation-conversationid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/stride/site-cloudid-conversation-conversationid-patch.md
 x-common:
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
