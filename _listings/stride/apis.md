@@ -24,7 +24,7 @@ apis:
   tags: Messaging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/stride/app-module-chat-conversation-chat-configuration-key-state-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/stride/app-module-chat-conversation-chat-glance-key-state-post.md
 x-common:
 - type: x-authentication
   url: https://developer.atlassian.com/cloud/stride/security/authentication/
