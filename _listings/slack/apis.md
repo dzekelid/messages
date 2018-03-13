@@ -39,7 +39,7 @@ apis:
   tags: Messaging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/reactions-list-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/conversations-create-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
