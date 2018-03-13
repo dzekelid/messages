@@ -39,7 +39,7 @@ apis:
   tags: Messaging
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/channels-leave-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/channels-rename-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
