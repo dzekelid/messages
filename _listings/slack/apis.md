@@ -25,9 +25,9 @@ tags:
 - Chat
 - Change Log Example
 - Change Log
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Slack
@@ -36,10 +36,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: ""
   baseURL: https://slack.com//api
-  tags: Messaging
+  tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/slack/stars-remove-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-delete-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
