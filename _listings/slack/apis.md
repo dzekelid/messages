@@ -39,7 +39,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-getpermalink-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-postephemeral-post.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
