@@ -27,7 +27,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-liked-by-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-sent-json-get.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
