@@ -31,7 +31,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-deletemessagebatch-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-receivemessage-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ
