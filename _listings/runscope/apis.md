@@ -30,7 +30,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-get.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
