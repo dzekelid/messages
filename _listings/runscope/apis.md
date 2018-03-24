@@ -15,8 +15,8 @@ tags:
 - Monitoring
 - Monitoring
 - API LIfeycle
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-messageid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-delete.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
