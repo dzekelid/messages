@@ -26,7 +26,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
