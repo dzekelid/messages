@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GetReceived Messages
+  description: All messages received by the user.
   version: 1.0.0
 host: example.com
 basePath: /
