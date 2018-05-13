@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-algo-json-get.md
-- name: Yammer API GetPrivate Messages
-  description: Private messages received by the user.
+- name: Yammer API Get Inbox Messages
+  description: Get Inbox Messages
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-private-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-inbox-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-private-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-inbox-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
