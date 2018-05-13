@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-algo-json-get.md
-- name: Yammer API Get Messages Liked By Current User
-  description: Get Messages Liked By Current User
+- name: Yammer API GetSent Messages
+  description: All messages sent by the user. Alias for /api/v1/messages/from_user/logged-in_user_id.format.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-liked-by-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-sent-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-liked-by-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-sent-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
