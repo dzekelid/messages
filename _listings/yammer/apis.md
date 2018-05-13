@@ -28,18 +28,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-algo-json-get.md
-- name: Yammer API GetSpecific Message
-  description: Returns a specfic message using the messageID key in the environment
-    keys
+- name: Yammer API DeleteSpecific Message
+  description: |-
+    Remove a message. The message must be owned by the current user
+
+    DELETE requests should use querystring parameters. If your app does not support the DELETE method you can do a POST with the parameter _method=DELETE.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-message-id-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-message-id-json-delete.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-message-id-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-message-id-json-delete-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
