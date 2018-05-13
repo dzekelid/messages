@@ -42,18 +42,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-sms-messages-smsmessagesid-format-get.md
-- name: Twilio Add Message
-  description: To send a new outgoing message, make an HTTP POST to your Messages
-    list resource URI
+- name: Twilio GetSMSList
+  description: GetSMSList
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-format-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-sms-messages-format-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-format-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-sms-messages-format-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
