@@ -26,15 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-replyall-parameters.md
-- name: Microsoft Office 365 Add Messages Message Reply
-  description: Post messages message  reply
+- name: Microsoft Office 365 Parameters Messages Message Reply
+  description: Parameters messages message  reply
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-reply-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-reply-parameters.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-reply-parameters-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
