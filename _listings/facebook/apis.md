@@ -37,7 +37,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/facebook/conversation-id-messages-put.md
-- name: Facebook Get Conversation Messages
+- name: Facebook Post Conversation Messages
   description: The messages in a conversation between a person and a page.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
   humanURL: https://facebook.com
@@ -45,7 +45,7 @@ apis:
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/facebook/#123;conversation-id-#125;-messages-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/facebook/#123;conversation-id-#125;-messages-post.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
