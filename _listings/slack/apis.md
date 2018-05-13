@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-postmessage-post.md
-- name: Slack Get Permalink
-  description: Retrieve a permalink URL for a specific extant message
+- name: Slack Sent Ephemeral lMessage
+  description: Sends an ephemeral message to a user in a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-getpermalink-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-postephemeral-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-getpermalink-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-postephemeral-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
