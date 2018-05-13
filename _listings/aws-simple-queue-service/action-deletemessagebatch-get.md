@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Queue Service API
+  title: AWS Simple Queue Service API Delete Message Batch
   version: 1.0.0
+  description: Deletes up to ten messages from the specified queue.
 schemes:
 - http
 produces:
