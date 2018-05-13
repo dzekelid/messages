@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API DeleteSpecific Message
+  description: |-
+    Remove a message. The message must be owned by the current user
+
+    DELETE requests should use querystring parameters. If your app does not support the DELETE method you can do a POST with the parameter _method=DELETE.
   version: 1.0.0
 host: example.com
 basePath: /
