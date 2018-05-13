@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GET Algo Messages
+  description: "The algorithmic feed for the user that corresponds to \u201CTop\u201D
+    conversations, which is what the vast majority of users will see in the Yammer
+    web interface."
   version: 1.0.0
 host: example.com
 basePath: /
