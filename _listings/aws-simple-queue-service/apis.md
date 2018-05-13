@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-sendmessagebatch-get.md
-- name: AWS Simple Queue Service API Delete Message
-  description: Deletes the specified message from the specified queue.
+- name: AWS Simple Queue Service API Delete Message Batch
+  description: Deletes up to ten messages from the specified queue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
   humanURL: https://aws.amazon.com/sqs/
   baseURL: http:://{host}//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-deletemessage-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-deletemessagebatch-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ
