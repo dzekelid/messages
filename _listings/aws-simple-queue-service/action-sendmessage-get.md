@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Queue Service API
+  title: AWS Simple Queue Service API Send Message
   version: 1.0.0
+  description: Delivers a message to the specified queue.
 schemes:
 - http
 produces:
