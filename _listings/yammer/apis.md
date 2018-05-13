@@ -28,18 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-algo-json-get.md
-- name: Yammer API GET Following Messages
-  description: "The \u201CFollowing\u201D feed which is conversations involving people,
-    groups and topics that the user is following."
+- name: Yammer API Get In Thread Messages
+  description: Get In Thread Messages
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-following-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-in-thread-14622342-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-following-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-in-thread-14622342-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
