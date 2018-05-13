@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GetSent Messages
+  description: All messages sent by the user. Alias for /api/v1/messages/from_user/logged-in_user_id.format.
   version: 1.0.0
 host: example.com
 basePath: /
