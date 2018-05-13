@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API CreateCreate Message JSON
+  description: Create a new message. The response body will include the new message
+    formatted the same way as message polling above. This allows your app to immediately
+    display the newly-posted message back to the user
   version: 1.0.0
 host: example.com
 basePath: /
