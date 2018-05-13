@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GetSpecific Message
+  description: Returns a specfic message using the messageID key in the environment
+    keys
   version: 1.0.0
 host: example.com
 basePath: /
