@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-replyall-parameters.md
-- name: Microsoft Office 365 Parameters Folders Folder Messages
-  description: Parameters folders folder  messages
+- name: Microsoft Office 365 Add Messages Event Send
+  description: You can send an existing email that has the IsDraft property...
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
   humanURL: http://office.com
   baseURL: https://outlook.office365.com//ews/odata/Me
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/folders-folder-id-messages-parameters.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-event-id-send-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/folders-folder-id-messages-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-event-id-send-post-postman.md
 x-common:
 - type: x-developer
   url: http://dev.office.com
