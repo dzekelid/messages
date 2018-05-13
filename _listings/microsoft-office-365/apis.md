@@ -26,7 +26,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/messages-message-id-replyall-parameters.md
+- name: Microsoft Office 365 Get Folders Folder Messages
+  description: You can request all the emails and meeting requests in a fol...
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png
+  humanURL: http://office.com
+  baseURL: https://outlook.office365.com//ews/odata/Me
+  tags: Messages
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/folders-folder-id-messages-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-office-365/folders-folder-id-messages-get-postman.md
 x-common:
+- type: x-developer
+  url: http://dev.office.com
+- type: x-github
+  url: https://github.com/OfficeDev
+- type: x-twitter
+  url: https://twitter.com/OfficeDev
+- type: x-website
+  url: http://office.com
 - type: x-developer
   url: http://dev.office.com
 - type: x-github
