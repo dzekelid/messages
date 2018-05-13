@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Runscope
-  description: Manage Runscope programmatically.
+  title: Runscope Get Buckets Messages
+  description: Retrieve a list of messages in a bucket
   version: 1.0.0
 host: api.runscope.com
 basePath: /
