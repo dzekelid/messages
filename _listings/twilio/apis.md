@@ -43,17 +43,16 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-sms-messages-smsmessagesid-format-get.md
 - name: Twilio Get Message Media
-  description: Without an extension, the media is returned using the mime-type provided
-    when the media was generated.
+  description: Returns a list of media associated with your message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twilio-logo.png
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-messagesid-media-mediasid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-messagesid-media-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-messagesid-media-mediasid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twilio/accounts-accountsid-messages-messagesid-media-get-postman.md
 x-common:
 - type: x-net-library
   url: https://www.twilio.com/docs/csharp/install
