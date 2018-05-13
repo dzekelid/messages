@@ -28,17 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-algo-json-get.md
-- name: Yammer API CreateCreate Message JSON
-  description: Create a new message. The response body will include the new message
-    formatted the same way as message polling above. This allows your app to immediately
-    display the newly-posted message back to the user
+- name: Yammer API Get Messages Bookmarked
+  description: Get messages bookmarked by ser
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/535_logo.png
   humanURL: http://developer.yammer.com
   baseURL: http:://example.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-json-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-bookmarked-by-json-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/yammer/yamuri-messages-bookmarked-by-json-get-postman.md
 x-common:
 - type: x-website
   url: http://developer.yammer.com
