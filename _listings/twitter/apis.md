@@ -23,17 +23,17 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Twitter Get Sent Direct Messages
-  description: return 20 most recent direct messages sent
+- name: Twitter Show Direct Message
+  description: returns a single direct message specified by an id
   image: https://avatars1.githubusercontent.com/u/50278?v=4
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-sent-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-show-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-sent-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-show-get-postman.md
 x-common:
 - type: x-net-library
   url: https://tweetinvi.codeplex.com/
