@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-sendmessagebatch-get.md
-- name: AWS Simple Queue Service API Send Message
-  description: Delivers a message to the specified queue.
+- name: AWS Simple Queue Service API Send Message Batch
+  description: Delivers up to ten messages to the specified queue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png
   humanURL: https://aws.amazon.com/sqs/
   baseURL: http:://{host}//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-sendmessage-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-queue-service/action-sendmessagebatch-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SQ
