@@ -31,15 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-messageid-get.md
-- name: Runscope Add Buckets Messages
-  description: Create a message
+- name: Runscope Get Buckets Messages Message
+  description: Retrieve the details for a single message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/runscope-logo.png
   humanURL: https://www.runscope.com/
   baseURL: https://api.runscope.com//
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-messageid-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/buckets-bucketkey-messages-messageid-get-postman.md
 x-common:
 - type: x-base-url
   url: https://api.runscope.com
