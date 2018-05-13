@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Queue Service API
+  title: AWS Simple Queue Service API Receive Message
   version: 1.0.0
+  description: Retrieves one or more messages (up to 10), from the specified queue.
 schemes:
 - http
 produces:
