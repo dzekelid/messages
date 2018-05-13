@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GET My Feed Messages
+  description: "The user\u2019s feed, based on the selection they have made between
+    \u201CFollowing\u201D and \u201CTop\u201D conversations."
   version: 1.0.0
 host: example.com
 basePath: /
