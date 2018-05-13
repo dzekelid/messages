@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Yammer API
-  description: 'TODO: Add Description'
+  title: Yammer API GET Messages
+  description: "All public messages in the user\u2019s (whose access token is being
+    used to make the API call henceforth referred to as current user) Yammer network.
+    Corresponds to \u201CAll\u201D conversations in the Yammer web interface."
   version: 1.0.0
 host: example.com
 basePath: /
