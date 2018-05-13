@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-postmessage-post.md
-- name: Slack Delete Message
-  description: Deletes a message.
+- name: Slack Unfurl Message
+  description: Provide custom unfurl behavior for user-posted URLs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-delete-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-unfurl-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-delete-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/slack/chat-unfurl-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
