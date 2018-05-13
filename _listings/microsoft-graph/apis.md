@@ -33,7 +33,31 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-graph/users-id-|-userprincipalname-messages-get.md
+- name: Microsoft Graph API List Messages
+  description: List messages Get all the messages in the signed-in user's mailbox,
+    or those messages in a specified folder in the mailbox.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
+  humanURL: https://developer.microsoft.com/en-us/graph/
+  baseURL: https://graph.microsoft.com//
+  tags: Messages
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/microsoft-graph/me-mailfolders-id-messages-get.md
 x-common:
+- type: x-change-loge
+  url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
+- type: x-documentation
+  url: https://developer.microsoft.com/en-us/graph/docs
+- type: x-explorer
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
+- type: x-getting-started
+  url: https://developer.microsoft.com/en-us/graph/docs/get-started/rest
+- type: x-github
+  url: https://github.com/microsoftgraph
+- type: x-sdk
+  url: https://developer.microsoft.com/en-us/graph/code-samples-and-sdks
+- type: x-website
+  url: https://developer.microsoft.com/en-us/graph/
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
 - type: x-documentation
