@@ -27,17 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-post.md
-- name: Youtube Parameters Live Chat Messages
-  description: Parameters livechat messages
+- name: Youtube Add Live Chat Messages
+  description: Adds a message to a live chat.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Messages
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/youtube/livechat-messages-post.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
