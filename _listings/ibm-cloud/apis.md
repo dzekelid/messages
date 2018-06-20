@@ -1,0 +1,61 @@
+---
+name: IBM Cloud
+x-slug: ibm-cloud
+description: The IBM Cloud has been built to help you solve problems and advance opportunities
+  in a world flush with data. Whether it&rsquo;s data you possess, data outside your
+  firewall, or data that&rsquo;s coming, the IBM Cloud helps you protect it, move
+  it, integrate it and unlock intelligence from it &mdash; giving you what it takes
+  to prevail in a competitive market.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg
+x-kinRank: "8"
+x-alexaRank: "11207"
+tags: Messages
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/ibm-cloud/apis.md
+specificationVersion: "0.14"
+apis:
+- name: IBM Containers List messages for the user
+  x-api-slug: ibm-containers
+  description: This endpoint retrieves all IBM Containers system messages for the
+    user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg
+  humanURL: https://www.ibm.com/cloud/
+  baseURL: https://containers-api.ng.bluemix.net//v3//containers/messages
+  tags: Containers,Messages
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/ibm-cloud/containersmessages-get-openapi.md
+- name: IBM Containers
+  x-api-slug: ibm-containers
+  description: The IBM Cloud has been built to help you solve problems and advance
+    opportunities in a world flush with data. Whether it&rsquo;s data you possess,
+    data outside your firewall, or data that&rsquo;s coming, the IBM Cloud helps you
+    protect it, move it, integrate it and unlock intelligence from it &mdash; giving
+    you what it takes to prevail in a competitive market.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28560-ibm-containers.jpg
+  humanURL: https://www.ibm.com/cloud/
+  baseURL: https://containers-api.ng.bluemix.net//v3
+  tags: Messages
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/ibm-cloud/openapi.md
+x-common:
+- type: x-blog
+  url: https://www.ibm.com/blogs/bluemix/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/product/ibm-bluemix
+- type: x-documentation
+  url: https://console.bluemix.net/docs/
+- type: x-github
+  url: https://github.com/IBM-Cloud
+- type: x-twitter
+  url: https://twitter.com/IBMcloud
+- type: x-website
+  url: https://www.ibm.com/cloud/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
