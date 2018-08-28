@@ -119,6 +119,119 @@ paths:
       - Message
       - Message
       - Id
+    delete:
+      summary: Delete User User Messages Message Message
+      description: Deletes a message.
+      operationId: user.user_id.messages.message.message_id.delete
+      x-api-path-slug: useruser-idmessagesmessagemessage-id-delete
+      parameters:
+      - in: query
+        name: message_id
+        description: The message ID
+      - in: path
+        name: message_id
+      - in: query
+        name: user_id
+        description: The user ID
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - User
+      - Id
+      - Messages
+      - Message
+      - Message
+      - Id
+  /user/{user_id}/messages/message/{message_id}/body:
+    get:
+      summary: Get User User Messages Message Message Body
+      description: Gets a message's body.
+      operationId: user.user_id.messages.message.message_id.body.get
+      x-api-path-slug: useruser-idmessagesmessagemessage-idbody-get
+      parameters:
+      - in: query
+        name: message_id
+        description: The message ID
+      - in: path
+        name: message_id
+      - in: query
+        name: user_id
+        description: The user ID
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - User
+      - Id
+      - Messages
+      - Message
+      - Message
+      - Id
+      - Body
+  /user/{user_id}/messages/message/{message_id}/read:
+    post:
+      summary: Post User User Messages Message Message Read
+      description: Marks a message as read.
+      operationId: user.user_id.messages.message.message_id.read.post
+      x-api-path-slug: useruser-idmessagesmessagemessage-idread-post
+      parameters:
+      - in: query
+        name: message_id
+        description: The message ID
+      - in: path
+        name: message_id
+      - in: query
+        name: user_id
+        description: The user ID
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - User
+      - Id
+      - Messages
+      - Message
+      - Message
+      - Id
+      - Read
+  /user/{user_id}/messages/delete:
+    post:
+      summary: Post User User Messages Delete
+      description: Deletes multiple messages at once. If a message has already been
+        deleted, it will be silently skipped.
+      operationId: user.user_id.messages.delete.post
+      x-api-path-slug: useruser-idmessagesdelete-post
+      parameters:
+      - in: header
+        name: Content-Type
+        description: Content type
+      - in: query
+        name: Content-Type
+        description: Content type
+      - in: query
+        name: user_id
+        description: The user ID
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - User
+      - User
+      - Id
+      - Messages
+      - Delete
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

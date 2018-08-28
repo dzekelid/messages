@@ -7,84 +7,134 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "18282"
 tags: Messages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gitter API List Room Messages
-  x-api-slug: gitter-api
+- name: No Title - List Room Messages
+  x-api-slug: roomsroomidchatmessages-get
   description: List of messages in a room.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///rooms/:roomId/chatMessages
-  tags: Rooms, Messages
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessages-get-openapi.md
-- name: Gitter API Send Message
-  x-api-slug: gitter-api
+- name: No Title - Send Message
+  x-api-slug: roomsroomidchatmessages-post
   description: Send a message to a room.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///rooms/:roomId/chatMessages
-  tags: Rooms,Messages
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessages-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessages-post-openapi.md
-- name: Gitter API Update Message
-  x-api-slug: gitter-api
+- name: No Title - Update Message
+  x-api-slug: roomsroomidchatmessageschatmessageid-put
   description: Update a message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///rooms/:roomId/chatMessages/:chatMessageId
-  tags: Rooms,Messages
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessageschatmessageid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessageschatmessageid-put-openapi.md
-- name: Gitter API Get User Unread Items
-  x-api-slug: gitter-api
+- name: No Title - Get User Unread Items
+  x-api-slug: useruseridroomsroomidunreaditems-get
   description: You can retrieve unread items and mentions using the following endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///user/:userId/rooms/:roomId/unreadItems
-  tags: Users,Messages,Unread
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/useruseridroomsroomidunreaditems-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/useruseridroomsroomidunreaditems-get-openapi.md
-- name: Gitter API Mark Unread Items as Read
-  x-api-slug: gitter-api
+- name: No Title - Mark Unread Items as Read
+  x-api-slug: useruseridroomsroomidunreaditems-post
   description: There is an additional endpoint nested under rooms that you can use
     to mark chat messages as read.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
-  baseURL: https://///user/:userId/rooms/:roomId/unreadItems
-  tags: Messages,Read
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/useruseridroomsroomidunreaditems-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/useruseridroomsroomidunreaditems-post-openapi.md
-- name: Gitter API
-  x-api-slug: gitter-api
-  description: Gitter is a chat and networking platform that helps to manage, grow
-    and connect communities through messaging, content and discovery.
+- name: No Title - Get Room Message
+  x-api-slug: roomsroomidchatmessagesmessageid-get
+  description: There is also a way to retrieve a single message using its id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
   humanURL: http://gitter.im
   baseURL: https:///
-  tags: Messages
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-openapi.md
+- name: No Title - Get Room Message
+  x-api-slug: roomsroomidchatmessagesmessageid-get
+  description: There is also a way to retrieve a single message using its id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
+  humanURL: http://gitter.im
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-openapi.md
+- name: No Title - Get Room Message
+  x-api-slug: roomsroomidchatmessagesmessageid-get
+  description: There is also a way to retrieve a single message using its id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
+  humanURL: http://gitter.im
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-openapi.md
+- name: No Title - Get Room Message
+  x-api-slug: roomsroomidchatmessagesmessageid-get
+  description: There is also a way to retrieve a single message using its id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
+  humanURL: http://gitter.im
+  baseURL: https:///
+  tags: Technology, SaaS, API Provider, API Service Provider, Communications, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/gitter/roomsroomidchatmessagesmessageid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gitlab.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gitter.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/gitter
 - type: x-developer

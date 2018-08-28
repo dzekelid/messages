@@ -1,29 +1,15 @@
 ---
 name: Skype
-description: Skype is a software application that allows users to make voice and video
-  calls and chats over the Internet. Calls to other users within the Skype service
-  are free, while calls to both traditional landline telephones and mobile phones
-  can be made for a fee using a debit-based user account system. Skype was founded
-  by Niklas Zennstrom and Janus Friis who were also the founders of the file sharing
-  application Kazaa. Skype has also become popular for its additional features which
-  include instant messaging, file transfer, and video conferencing. Skype has 663
-  million registered users as of 2010.
-image: https://avatars0.githubusercontent.com/u/875409?v=4
+x-slug: skype
+description: Stay in touch! Free online calls, messaging, affordable international
+  calling to mobiles or landlines and Skype for Business for effective collaboration.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/249-skype.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- VOIP
-- Voice
-- Video Conferencing
-- Telco
-- Stack Network
-- Phone
-- Messaging
-- Communications
-- Chat
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/skype/apis.yaml
+x-alexaRank: "422"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/skype/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -31,6 +17,8 @@ x-common:
   url: http://blogs.skype.com
 - type: x-blog-rss
   url: http://feeds.feedburner.com/skypedevzone
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/skype
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/skype
 - type: x-github

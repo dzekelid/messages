@@ -1,9 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Gitter
 x-complete: 1
 info:
-  title: No Title
+  title: Gitter
   version: 1.0.0
 schemes:
 - http
@@ -122,4 +121,15 @@ paths:
       tags:
       - Messages
       - Read
----
+  /rooms/:roomId/chatMessages/:messageId:
+    get:
+      summary: Get Room Message
+      description: There is also a way to retrieve a single message using its id.
+      operationId: getRoomMessage
+      x-api-path-slug: roomsroomidchatmessagesmessageid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rooms
+      - Message

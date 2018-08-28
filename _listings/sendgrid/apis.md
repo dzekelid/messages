@@ -1,44 +1,24 @@
 ---
 name: SendGrid
-description: SendGrid is a cloud-based email service that delivers email on behalf
-  of companies to increase deliverability and improve customer communications integration
-  with new or existing email systems is done via SMTP or through a REST API, providing
-  metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam regulations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+x-slug: sendgrid
+description: Delivering your transactional and marketing emails through the worlds
+  largest cloud-based email delivery platform. Send with confidence.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Plans
-- Partners
-- Messaging
-- Messaging
-- Imports
-- Email
-- Email
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/sendgrid/apis.yaml
+x-alexaRank: "10000"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SendGrid
-  description: SendGrid is a cloud-based email service that delivers email on behalf
-    of companies to increase deliverability and improve customer communications integration
-    with new or existing email systems is done via SMTP or through a REST API, providing
-    metrics on outgoing email, and handles unsubscribe links, abiding by anti-spam
-    regulations
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
-  humanURL: ""
-  baseURL: https://api.sendgrid.com//v3
-  tags: Messaging
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/sendgrid/whitelabel-links-link-id-subuser-post.md
+apis: []
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
@@ -49,10 +29,18 @@ x-common:
   url: https://sendgrid.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/sendgrid
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sendgrid
 - type: x-developer
   url: https://sendgrid.com/developers
 - type: x-documentation
   url: https://sendgrid.com/docs/index.html
+- type: x-email
+  url: privacy@sendgrid.com
+- type: x-email
+  url: legal@sendgrid.com
+- type: x-email
+  url: dpo@sendgrid.com
 - type: x-forum
   url: http://support.sendgrid.com/forums
 - type: x-github
@@ -65,7 +53,9 @@ x-common:
   url: https://sendgrid.com/docs/Code_Examples/java.html
 - type: x-labs
   url: http://labs.sendgrid.com/
-- type: x-nodejs-library
+- type: x-linkedin
+  url: https://www.linkedin.com/company/sendgrid
+- type: x-node-js-library
   url: https://sendgrid.com/docs/Code_Examples/nodejs.html
 - type: x-partners
   url: https://sendgrid.com/partners
@@ -89,6 +79,8 @@ x-common:
   url: https://sendgrid.com/tos
 - type: x-twitter
   url: https://twitter.com/SendGrid
+- type: x-website
+  url: http://sendgrid.com
 - type: x-website
   url: https://sendgrid.com/
 include: []

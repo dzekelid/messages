@@ -370,6 +370,28 @@ paths:
       - Outbound
       - Messageid
       - Details
+  /messages/outbound/{messageid}/dump:
+    get:
+      summary: Get Messages Outbound Message Dump
+      description: Get messages outbound message dump.
+      operationId: getMessagesOutboundMessageDump
+      x-api-path-slug: messagesoutboundmessageiddump-get
+      parameters:
+      - in: path
+        name: messageid
+        description: The ID of the message for which to retrieve a dump
+      - in: header
+        name: X-Postmark-Server-Token
+        description: The token associated with the Server on which this request will
+          operate
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Outbound
+      - Messageid
+      - Dump
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -3,86 +3,90 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Messages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter Get Sent Direct Messages
-  x-api-slug: twitter
+- name: Twitter - Get Sent Direct Messages
+  x-api-slug: direct-messagessent-get
   description: return 20 most recent direct messages sent
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/sent
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagessent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagessent-get-openapi.md
-- name: Twitter Show Direct Message
-  x-api-slug: twitter
+- name: Twitter - Show Direct Message
+  x-api-slug: direct-messagesshow-get
   description: returns a single direct message specified by an id
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/show
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesshow-get-openapi.md
-- name: Twitter Get Direct Messages
-  x-api-slug: twitter
+- name: Twitter - Get Direct Messages
+  x-api-slug: direct-messages-get
   description: return 20 most recent direct messages sent to user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messages-get-openapi.md
-- name: Twitter Remove Direct Message
-  x-api-slug: twitter
+- name: Twitter - Remove Direct Message
+  x-api-slug: direct-messagesdestroy-post
   description: destroys direct messages specified in required ID
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/destroy
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
-- name: Twitter Create Direct Message
-  x-api-slug: twitter
+- name: Twitter - Create Direct Message
+  x-api-slug: direct-messagesnew-post
   description: sends a new direct message to specified user
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/new
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesnew-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/direct-messagesnew-post-openapi.md
-- name: Twitter
-  x-api-slug: twitter
-  description: From breaking news and entertainment to sports and politics, get the
-    full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
-  humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1
-  tags: Messages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/twitter/openapi.md
 x-common:
 - type: x--net-library
   url: https://tweetinvi.codeplex.com/
@@ -90,6 +94,10 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management

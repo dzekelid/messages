@@ -1,29 +1,22 @@
 ---
 name: Clockwork
-description: Clockwork is SMS API focused on allowing developers to get up and running
-  sending SMS as quickly as possible. Clockwork only focuses on sending and receiving
-  of SMS for developers through a modern web API platform. Clockwork provides a pay
-  as you go, SMS unit based pricing model for developers to access when building their
-  applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clockwork-logo.png
+x-slug: clockwork
+description: Clockwork is an Easy Text Message API. An SMS API for Developers. Build
+  powerful apps and include SMS. Signup is free, Try it now.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1373-clockwork.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Telco
-- Target
-- Stack Network
-- SMS API
-- SMS
-- Messaging
-- Messaging
-- Global
-- Bulk
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/clockwork/apis.yaml
+x-alexaRank: "643753"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clockwork/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://climacell.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://clockwork.stack.network
 - type: x-base
   url: http://api.clockworksms.com
 - type: x-blog
@@ -32,10 +25,14 @@ x-common:
   url: http://www.clockworksms.com/feed/
 - type: x-contact-form
   url: http://www.clockworksms.com/support/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/product/clockwork
 - type: x-developer
   url: http://www.clockworksms.com/doc/
 - type: x-documentation
   url: http://www.clockworksms.com/doc/easy-stuff/http-interface/send-sms/
+- type: x-email
+  url: 441234567980@YOURAPIKEY.clockworksms.com
 - type: x-email
   url: hello@clockworksms.com
 - type: x-faq
@@ -48,6 +45,8 @@ x-common:
   url: http://www.clockworksms.com/terms-and-conditions/
 - type: x-twitter
   url: https://twitter.com/ClockworkSMS
+- type: x-website
+  url: http://clockworksms.com
 - type: x-website
   url: http://www.clockworksms.com
 - type: x-wordpress-plugin

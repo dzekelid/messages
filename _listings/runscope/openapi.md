@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Runscope
 x-complete: 1
@@ -90,4 +89,3 @@ paths:
       - Buckets
       - Messages
       - Message
----

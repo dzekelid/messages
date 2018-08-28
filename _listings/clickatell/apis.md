@@ -1,43 +1,92 @@
 ---
 name: Clickatell
-description: Clickatell is a privately held mobile communications company founded
-  in 2000 with a presence in US and Africa.  Clickatell delivers short message service
-  SMS services through its Clickatell Gateway to mobile phone users through more than
-  800 networks in more than 220 countries and territories. Clickatell provides a pay
-  as you go, SMS unit based pricing model for developers to leverage when building
-  applications.
-image: https://avatars.githubusercontent.com/u/7206811?v=2
+x-slug: clickatell
+description: Clickatell is a leading company in Global Mobile Messaging. You can reach
+  1000+ global networks with 1 API using Clickatells Bulk SMS Gateway.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Telco
-- Stack Network
-- Smtp
-- SMS API
-- SMS
-- SMPP
-- Plans
-- Messaging
-- File Transfer
-- Email Marketing
-- Email
-- Applications
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/clickatell/apis.yaml
+x-alexaRank: "105051"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Clickatell SMS - Send Message
+  x-api-slug: sendmsg-get
+  description: The Clickatell HTTP/S API provides just about the simplest way of programming
+    your connection to Clickatell, and if you need to overcome a firewall problem
+    HTTP/S is almost certainly your best solution.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
+  humanURL: http://clickatell.com
+  baseURL: http://api.clickatell.com/http/
+  tags: Applications, File Transfer, SMPP, Email Marketing, SMTP, SMS, Stack Network,
+    Mobile, Technology, SaaS, Enterprise, Telecommunications, API Provider, SMS, Telecommunications,
+    Emails, Messages, Profiles, Service API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-openapi.md
+- name: Clickatell SMS - Send Message
+  x-api-slug: sendmsg-get
+  description: The Clickatell HTTP/S API provides just about the simplest way of programming
+    your connection to Clickatell, and if you need to overcome a firewall problem
+    HTTP/S is almost certainly your best solution.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
+  humanURL: http://clickatell.com
+  baseURL: http://api.clickatell.com/http/
+  tags: Applications, File Transfer, SMPP, Email Marketing, SMTP, SMS, Stack Network,
+    Mobile, Technology, SaaS, Enterprise, Telecommunications, API Provider, SMS, Telecommunications,
+    Emails, Messages, Profiles, Service API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-openapi.md
+- name: Clickatell SMS - Send Message
+  x-api-slug: sendmsg-get
+  description: The Clickatell HTTP/S API provides just about the simplest way of programming
+    your connection to Clickatell, and if you need to overcome a firewall problem
+    HTTP/S is almost certainly your best solution.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/169-clickatell.jpg
+  humanURL: http://clickatell.com
+  baseURL: http://api.clickatell.com/http/
+  tags: Applications, File Transfer, SMPP, Email Marketing, SMTP, SMS, Stack Network,
+    Mobile, Technology, SaaS, Enterprise, Telecommunications, API Provider, SMS, Telecommunications,
+    Emails, Messages, Profiles, Service API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/clickatell/sendmsg-get-openapi.md
 x-common:
 - type: x-press
   url: http://americas.clickatell.com/press-release/
-- type: x-net-library
+- type: x--net-library
   url: http://americas.clickatell.com/apis-scripts/scripts/c-scripts/
+- type: x-api-gallery
+  url: http://click.meter.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://clickatell.stack.network
 - type: x-base
   url: http://api.clickatell.com
 - type: x-coldfusion-library
   url: http://americas.clickatell.com/apis-scripts/scripts/cold-fusion/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/clickatell-inc
 - type: x-developer
   url: http://americas.clickatell.com/apis-scripts/
+- type: x-email
+  url: support@clickatell.com
+- type: x-email
+  url: expertadvisors@clickatell.com
+- type: x-email
+  url: accounts@clickatell.com
+- type: x-email
+  url: legal@clickatell.com
+- type: x-email
+  url: webterms@clickatell.com
 - type: x-github
   url: https://github.com/Clickatell
 - type: x-php-library
@@ -52,6 +101,8 @@ x-common:
   url: https://www.clickatell.com/about-us/terms-and-conditions/?_ga=1.205319120.1120142809.1413957851
 - type: x-twitter
   url: https://twitter.com/Clickatell
+- type: x-website
+  url: http://clickatell.com
 - type: x-website
   url: http://americas.clickatell.com/
 - type: x-white-papers

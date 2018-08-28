@@ -1,27 +1,74 @@
 ---
 name: Elastic Email
-description: Elastic Email is an email delivery service for transactional and marketing
-  email, operated by Geographical Media Inc, operating across United States and European
-  data centers. Elastic Email provides services for sending, receiving, and storage
-  of emails, with other supporting delivery, organization, and real-time tools, which
-  includes APIs for managing metrics and account information. There is a free trial,
-  with pay as you go, unit based pricing which includes multiple access tiers.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/586_logo.png
+x-slug: elastic-email
+description: Elastic Email is an all-in-one email delivery platform. Send beautiful
+  newsletters or transactional emails in a better way.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Messaging
-- Email API
-- Email
-- Cloud
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/elastic-email/apis.yaml
+x-alexaRank: "50338"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Elastic Email SMTP API - Get Status
+  x-api-slug: mailerstatusmessage-id-get
+  description: Get the status of an email message
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-openapi.md
+- name: Elastic Email SMTP API - Get Status
+  x-api-slug: mailerstatusmessage-id-get
+  description: Get the status of an email message
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-openapi.md
+- name: Elastic Email SMTP API - Get Status
+  x-api-slug: mailerstatusmessage-id-get
+  description: Get the status of an email message
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-openapi.md
+- name: Elastic Email SMTP API - Get Status
+  x-api-slug: mailerstatusmessage-id-get
+  description: Get the status of an email message
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/elastic-email/mailerstatusmessage-id-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://ehrscape.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://elastic.email.stack.network
 - type: x-base
   url: http://api.elasticemail.com
 - type: x-blog
@@ -29,9 +76,13 @@ x-common:
 - type: x-blog-rss
   url: http://elasticemail.com/posts/rss/xml
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/elastic-email
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/elastic-email
 - type: x-documentation
   url: https://elasticemail.com/api-documentation
+- type: x-email
+  url: support@elasticemail.com
 - type: x-pricing
   url: https://elasticemail.com/pricing
 - type: x-privacy

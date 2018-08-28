@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post My Conversations Conversation Messages
+  title: Reverb Post My Conversations Conversation Messages
   description: Post my conversations conversation messages.
   termsOfService: https://reverb.com/page/terms
   contact:

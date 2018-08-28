@@ -324,6 +324,72 @@ paths:
       - Message
       - ""
       - Move
+  /Messages{message_id}/Reply:
+    post:
+      summary: Add Messages Message Reply
+      description: Post messages message  reply
+      operationId: postMessagesMessageReply
+      x-api-path-slug: messagesmessage-idreply-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Reply
+    parameters:
+      summary: Parameters Messages Message Reply
+      description: Parameters messages message  reply
+      operationId: parametersMessagesMessageReply
+      x-api-path-slug: messagesmessage-idreply-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Reply
+  /Messages{message_id}/ReplyAll:
+    post:
+      summary: Add Messages Message Replyall
+      description: Post messages message  replyall
+      operationId: postMessagesMessageReplyall
+      x-api-path-slug: messagesmessage-idreplyall-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Replyall
+    parameters:
+      summary: Parameters Messages Message Replyall
+      description: Parameters messages message  replyall
+      operationId: parametersMessagesMessageReplyall
+      x-api-path-slug: messagesmessage-idreplyall-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Replyall
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

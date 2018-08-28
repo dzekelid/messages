@@ -213,6 +213,137 @@ paths:
       - Messages
       - Message
       - Body
+  /accounts/{id}/messages/{message_id}/source:
+    get:
+      summary: Get Accounts Messages Message Source
+      description: 'Fetches the message source. Returns the raw RFC-822 message source
+        for the message (including attachments) with no parsing or decoding to any
+        portions of the message. On-demand data retrieval: since we do not keep full
+        copies of emails on our servers, this call triggers a connection to the IMAP
+        server to fetch the message. Attachments are part of the message source so
+        they will impact how fast this call responds.'
+      operationId: getAccountMessageSource_
+      x-api-path-slug: accountsidmessagesmessage-idsource-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Source
+  /accounts/{id}/messages/{message_id}/flags:
+    get:
+      summary: Get Accounts Messages Message Flags
+      description: 'Lists message flags for an account. On-demand data retrieval:
+        to ensure up-to-date values, flags are not cached by Context.IO. This call
+        triggers a connection to the IMAP server to fetch the current message flags
+        before it returns.'
+      operationId: listAccountMessageFlags_
+      x-api-path-slug: accountsidmessagesmessage-idflags-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Flags
+    post:
+      summary: Post Accounts Messages Message Flags
+      description: Sets message flags for a given email.
+      operationId: Create_setAccountMessageFlags_
+      x-api-path-slug: accountsidmessagesmessage-idflags-post
+      parameters:
+      - in: query
+        name: answered
+        description: Message has been answered
+      - in: query
+        name: deleted
+        description: Message is deleted for later removal
+      - in: query
+        name: draft
+        description: Message has not completed composition (marked as a draft)
+      - in: query
+        name: flagged
+        description: Message is flagged for urgent/special attention
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      - in: query
+        name: seen
+        description: Message has been read
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Flags
+  /accounts/{id}/messages/{message_id}/headers:
+    get:
+      summary: Get Accounts Messages Message Headers
+      description: 'Lists complete headers of a given email message. On-demand data
+        retrieval: since we do not keep full copies of emails on our servers, this
+        call triggers a connection to the IMAP server to fetch the message headers.'
+      operationId: listAccountMessageHeaders_
+      x-api-path-slug: accountsidmessagesmessage-idheaders-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Headers
+  /accounts/{id}/messages/{message_id}/thread:
+    get:
+      summary: Get Accounts Messages Message Thread
+      description: Gets information about all messages of the thread a given message
+        is in. This returns an array with the same structure as getting information
+        on a single message for every message in the thread.
+      operationId: getAccountMessageThread_
+      x-api-path-slug: accountsidmessagesmessage-idthread-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Thread
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

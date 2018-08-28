@@ -164,6 +164,232 @@ paths:
       - Message
       - ""
       - Copy
+    parameters:
+      summary: Parameters Messages Message Copy
+      description: Parameters messages message  copy
+      operationId: parametersMessagesMessageCopy
+      x-api-path-slug: messagesmessage-idcopy-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Copy
+  /Messages{message_id}/CreateForward:
+    post:
+      summary: Add Messages Message Createforward
+      description: Post messages message  createforward
+      operationId: postMessagesMessageCreateforward
+      x-api-path-slug: messagesmessage-idcreateforward-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createforward
+    parameters:
+      summary: Parameters Messages Message Createforward
+      description: Parameters messages message  createforward
+      operationId: parametersMessagesMessageCreateforward
+      x-api-path-slug: messagesmessage-idcreateforward-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createforward
+  /Messages{message_id}/CreateReply:
+    post:
+      summary: Add Messages Message Createreply
+      description: Post messages message  createreply
+      operationId: postMessagesMessageCreatereply
+      x-api-path-slug: messagesmessage-idcreatereply-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createreply
+    parameters:
+      summary: Parameters Messages Message Createreply
+      description: Parameters messages message  createreply
+      operationId: parametersMessagesMessageCreatereply
+      x-api-path-slug: messagesmessage-idcreatereply-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createreply
+  /Messages{message_id}/CreateReplyAll:
+    post:
+      summary: Add Messages Message Create Reply All
+      description: Post messages message  createreplyall
+      operationId: postMessagesMessageCreatereplyall
+      x-api-path-slug: messagesmessage-idcreatereplyall-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createreplyall
+    parameters:
+      summary: Parameters Messages Message Create Reply All
+      description: Parameters messages message  createreplyall
+      operationId: parametersMessagesMessageCreatereplyall
+      x-api-path-slug: messagesmessage-idcreatereplyall-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Createreplyall
+  /Messages{message_id}/Forward:
+    post:
+      summary: Add Messages Message Forward
+      description: You can forward an email by using the Forward action on the ...
+      operationId: postMessagesMessageForward
+      x-api-path-slug: messagesmessage-idforward-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Forward
+    parameters:
+      summary: Parameters Messages Message Forward
+      description: Parameters messages message  forward
+      operationId: parametersMessagesMessageForward
+      x-api-path-slug: messagesmessage-idforward-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Forward
+  /Messages{message_id}/Move:
+    post:
+      summary: Add Messages Message Move
+      description: Post messages message  move
+      operationId: postMessagesMessageMove
+      x-api-path-slug: messagesmessage-idmove-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Move
+    parameters:
+      summary: Parameters Messages Message Move
+      description: Parameters messages message  move
+      operationId: parametersMessagesMessageMove
+      x-api-path-slug: messagesmessage-idmove-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Move
+  /Messages{message_id}/Reply:
+    post:
+      summary: Add Messages Message Reply
+      description: Post messages message  reply
+      operationId: postMessagesMessageReply
+      x-api-path-slug: messagesmessage-idreply-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Reply
+    parameters:
+      summary: Parameters Messages Message Reply
+      description: Parameters messages message  reply
+      operationId: parametersMessagesMessageReply
+      x-api-path-slug: messagesmessage-idreply-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Reply
+  /Messages{message_id}/ReplyAll:
+    post:
+      summary: Add Messages Message Replyall
+      description: Post messages message  replyall
+      operationId: postMessagesMessageReplyall
+      x-api-path-slug: messagesmessage-idreplyall-post
+      parameters:
+      - in: body
+        name: body
+        description: (Untitled)
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Replyall
+    parameters:
+      summary: Parameters Messages Message Replyall
+      description: Parameters messages message  replyall
+      operationId: parametersMessagesMessageReplyall
+      x-api-path-slug: messagesmessage-idreplyall-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Message
+      - ""
+      - Replyall
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

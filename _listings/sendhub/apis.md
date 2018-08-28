@@ -1,22 +1,19 @@
 ---
 name: SendHub
-description: 'SendHub provides a simple, fast and reliable communications platform
+x-slug: sendhub
+description: SendHub provides a simple, fast and reliable communications platform
   for businesses and organizations. Our BYOD business phone system is easy to use
   and manage with no contracts or no hardware to install. Business owners or IT admins
   can easily add, delete or reallocate phone lines, monitor usage, and download analytics
   with a single click. Call or text using any device, whether it is a PC, cellphone
-  or tablet. '
+  or tablet.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1147_logo.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- SMS
-- Messaging
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/sendhub/apis.yaml
+x-alexaRank: "0"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/sendhub/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

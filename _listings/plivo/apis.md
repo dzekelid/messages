@@ -1,33 +1,194 @@
 ---
 name: Plivo
-description: Plivo is an API Platform for building voice and SMS features into web
-  and mobile applications that are focused on running in the cloud. Plivo provides
-  web APIs that allow developers to integrate voice and SMS sending, receiving, and
-  account management features into any applications. Plivo provides a free tier for
-  playing around with the API, as well as unit based, pay as you go pricing, which
-  includes volume pricing for larger scale operations.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plivo-logo.png
+x-slug: plivo
+description: 'Voice & SMS API Platform: Plivo enables businesses and developers to
+  tap into powerful Voice and SMS capabilities without carrier lock-in.'
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Voice
-- Telco
-- Target
-- Stack Network
-- SMS API
-- Plans
-- Messaging
-- Imports
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/plivo/apis.yaml
+x-alexaRank: "130970"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessage-get
+  description: Get details of a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-openapi.md
+- name: Plivo SMS - Send Message
+  x-api-slug: auth-idmessage-post
+  description: This API enables you to send messages via Plivou2019s SMS service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessagemessage-uuid-get
+  description: Get details of a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessage-get
+  description: Get details of a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessage-get
+  description: Get details of a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-openapi.md
+- name: Plivo SMS - Send Message
+  x-api-slug: auth-idmessage-post
+  description: This API enables you to send messages via Plivou2019s SMS service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-openapi.md
+- name: Plivo SMS - Send Message
+  x-api-slug: auth-idmessage-post
+  description: This API enables you to send messages via Plivou2019s SMS service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessagemessage-uuid-get
+  description: Get details of a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessagemessage-uuid-get
+  description: Get details of a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessagemessage-uuid-get
+  description: Get details of a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessagemessage-uuid-get-openapi.md
+- name: Plivo SMS - Send Message
+  x-api-slug: auth-idmessage-post
+  description: This API enables you to send messages via Plivou2019s SMS service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-post-openapi.md
+- name: Plivo SMS - Message
+  x-api-slug: auth-idmessage-get
+  description: Get details of a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
+  humanURL: http:///account
+  baseURL: https://api.plivo.com/v1/
+  tags: Voice, Target, Imports, Stack Network, Technology, Telecommunications, SMS,
+    Telecommunications, Messages, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/plivo/auth-idmessage-get-openapi.md
 x-common:
-- type: x-net-library
+- type: x--net-library
   url: https://www.plivo.com/docs/helpers/dotnet/
 - type: x-android-sdk
   url: https://www.plivo.com/docs/sdk/android/
+- type: x-api-gallery
+  url: http://plentymarkets.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://plivo.stack.network
 - type: x-base
   url: https://api.plivo.com
 - type: x-blog
@@ -35,9 +196,17 @@ x-common:
 - type: x-blog-rss
   url: http://blog.plivo.com/rss
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/plivo
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/plivo
 - type: x-documentation
   url: https://plivo.com/docs/
+- type: x-email
+  url: marketing@plivo.com
+- type: x-email
+  url: legalrequests@plivo.com
+- type: x-email
+  url: privacy@plivo.com
 - type: x-faq
   url: https://plivo.com/faq/
 - type: x-github
@@ -46,7 +215,9 @@ x-common:
   url: https://www.plivo.com/docs/sdk/ios/
 - type: x-java-sdk
   url: https://www.plivo.com/docs/helpers/java/
-- type: x-nodejs-library
+- type: x-linkedin
+  url: https://www.linkedin.com/company/plivo-inc/
+- type: x-node-js-library
   url: https://www.plivo.com/docs/helpers/node/
 - type: x-php-sdk
   url: https://www.plivo.com/docs/helpers/php/
@@ -63,7 +234,11 @@ x-common:
 - type: x-terms-of-service
   url: https://plivo.com/terms/
 - type: x-twitter
-  url: https://twitter.com/#!/plivo
+  url: https://twitter.com/plivo
+- type: x-website
+  url: http:///account
+- type: x-website
+  url: http://plivo.com
 - type: x-website
   url: https://www.plivo.com
 include: []

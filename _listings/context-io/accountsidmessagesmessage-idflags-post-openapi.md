@@ -291,6 +291,52 @@ paths:
       - Messages
       - Message
       - Flags
+  /accounts/{id}/messages/{message_id}/headers:
+    get:
+      summary: Get Accounts Messages Message Headers
+      description: 'Lists complete headers of a given email message. On-demand data
+        retrieval: since we do not keep full copies of emails on our servers, this
+        call triggers a connection to the IMAP server to fetch the message headers.'
+      operationId: listAccountMessageHeaders_
+      x-api-path-slug: accountsidmessagesmessage-idheaders-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Headers
+  /accounts/{id}/messages/{message_id}/thread:
+    get:
+      summary: Get Accounts Messages Message Thread
+      description: Gets information about all messages of the thread a given message
+        is in. This returns an array with the same structure as getting information
+        on a single message for every message in the thread.
+      operationId: getAccountMessageThread_
+      x-api-path-slug: accountsidmessagesmessage-idthread-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Thread
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

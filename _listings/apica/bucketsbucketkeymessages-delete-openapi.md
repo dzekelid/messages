@@ -3,19 +3,21 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Messages API Clear a bucket (remove all messages).
+  title: Messages API Delete Buckets Messages
   version: 1.0.0
   description: Clear a bucket (remove all messages)..
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   /buckets/{bucketKey}/messages:
     delete:
-      summary: Clear a bucket (remove all messages).
+      summary: Delete Buckets Messages
       description: Clear a bucket (remove all messages)..
       operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete

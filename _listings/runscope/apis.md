@@ -6,68 +6,118 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runsc
 x-kinRank: "9"
 x-alexaRank: "125183"
 tags: Messages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Runscope Delete Buckets Messages
-  x-api-slug: runscope
+- name: Runscope - Delete Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-delete
   description: Clear a bucket (remove all messages).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
-  baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
-  tags: Buckets, Messages
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessages-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessages-delete-openapi.md
-- name: Runscope Get Buckets Messages
-  x-api-slug: runscope
+- name: Runscope - Get Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-get
   description: Retrieve a list of messages in a bucket
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
-  baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
-  tags: Buckets, Messages
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessages-get-openapi.md
-- name: Runscope Add Buckets Messages
-  x-api-slug: runscope
+- name: Runscope - Add Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-post
   description: Create a message
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
-  baseURL: https://api.runscope.com////buckets/{bucketKey}/messages
-  tags: Buckets, Messages
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessages-post-openapi.md
-- name: Runscope Get Buckets Messages Message
-  x-api-slug: runscope
+- name: Runscope - Get Buckets Messages Message
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
   description: Retrieve the details for a single message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
-  baseURL: https://api.runscope.com////buckets/{bucketKey}/messages/{messageId}
-  tags: Buckets, Messages, Message
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-openapi.md
-- name: Runscope
-  x-api-slug: runscope
-  description: API performance monitoring. Everything is going to be 200 OK
+- name: Runscope - Get Buckets Messages Message
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
   humanURL: http://runscope.com
   baseURL: https://api.runscope.com//
-  tags: Messages
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Runscope - Get Buckets Messages Message
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Runscope - Get Buckets Messages Message
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Runscope - Get Buckets Messages Message
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1752-runscope.jpg
+  humanURL: http://runscope.com
+  baseURL: https://api.runscope.com//
+  tags: My API Stack, Monitoring, Testing, Monitoring, Testing, API LIfeyclessss,
+    Stack Network, SaaS, Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/runscope/bucketsbucketkeymessagesmessageid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://royal.bank.of.scotland.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://runscope.stack.network
 - type: x-base-url
   url: https://api.runscope.com
 - type: x-blog

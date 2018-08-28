@@ -1,33 +1,24 @@
 ---
 name: AWS Simple Email Service
+x-slug: aws-simple-email-service
 description: Amazon Simple Email Service (Amazon SES) is a cost-effective email service
   built on the reliable and scalable infrastructure that Amazon.com developed to serve
   its own customer base. With Amazon SES, you can send and receive email with no required
-  minimum commitments ndash; you pay as you go, and you only pay for what you use.
+  minimum commitments &ndash; you pay as you go, and you only pay for what you use.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Messaging
-- Email
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/aws-simple-email-service/apis.yaml
+x-alexaRank: "0"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Simple Email Service API
-  description: Amazon Simple Email Service (Amazon SES) is a cost-effective email
-    service built on the reliable and scalable infrastructure that Amazon
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
-  humanURL: ""
-  baseURL: :///
-  tags: Messaging
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/aws-simple-email-service/action-verifyemailidentity-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.shield.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.email.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
 - type: x-documentation

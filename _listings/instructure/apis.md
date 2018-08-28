@@ -7,58 +7,150 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Messages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Conversations API Delete a message
-  x-api-slug: instructure-canvas-conversations-api
+- name: Instructure Canvas Conversations API - Delete a message
+  x-api-slug: conversationsidremove-messages-post
   description: Delete a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//conversations/{id}/remove_messages
-  tags: Conversations,Id,Remove,Messages
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidremove-messages-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidremove-messages-post-openapi.md
-- name: Instructure Canvas Conversations API
-  x-api-slug: instructure-canvas-conversations-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
+- name: Instructure Canvas Conversations API - Add a message
+  x-api-slug: conversationsidadd-message-post
+  description: Add a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
   baseURL: https://canvas.instructure.com//api/v1
-  tags: Messages
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Utility APIs List of CommMessages for a user
-  x-api-slug: instructure-canvas-utility-apis
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-openapi.md
+- name: Instructure Canvas Conversations API - Add a message
+  x-api-slug: conversationsidadd-message-post
+  description: Add a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-openapi.md
+- name: Instructure Canvas Conversations API - Add a message
+  x-api-slug: conversationsidadd-message-post
+  description: Add a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-openapi.md
+- name: Instructure Canvas Conversations API - Add a message
+  x-api-slug: conversationsidadd-message-post
+  description: Add a message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/conversationsidadd-message-post-openapi.md
+- name: Instructure Canvas Courses API - Send a message to unsubmitted or submitted
+    users for the quiz
+  x-api-slug: coursescourse-idquizzesidsubmission-usersmessage-post
+  description: Send a message to unsubmitted or submitted users for the quiz.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Courses API - Send a message to unsubmitted or submitted
+    users for the quiz
+  x-api-slug: coursescourse-idquizzesidsubmission-usersmessage-post
+  description: Send a message to unsubmitted or submitted users for the quiz.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Courses API - Send a message to unsubmitted or submitted
+    users for the quiz
+  x-api-slug: coursescourse-idquizzesidsubmission-usersmessage-post
+  description: Send a message to unsubmitted or submitted users for the quiz.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Courses API - Send a message to unsubmitted or submitted
+    users for the quiz
+  x-api-slug: coursescourse-idquizzesidsubmission-usersmessage-post
+  description: Send a message to unsubmitted or submitted users for the quiz.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Utility APIs - List of CommMessages for a user
+  x-api-slug: comm-messages-get
   description: List of commmessages for a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//comm_messages
-  tags: Comm,Messages
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/comm-messages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/comm-messages-get-openapi.md
-- name: Instructure Canvas Utility APIs
-  x-api-slug: instructure-canvas-utility-apis
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Messages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/instructure/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss

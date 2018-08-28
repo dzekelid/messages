@@ -3,19 +3,21 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Messages API Retrieve the details for a single message.
+  title: Messages API Get Buckets Messages Messageid
   version: 1.0.0
   description: Retrieve the details for a single message..
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   /buckets/{bucketKey}/messages:
     delete:
-      summary: Clear a bucket (remove all messages).
+      summary: Delete Buckets Messages
       description: Clear a bucket (remove all messages)..
       operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
@@ -31,7 +33,7 @@ paths:
       - BucketKey
       - Messages
     get:
-      summary: Retrieve a list of messages in a bucket
+      summary: Get Buckets Messages
       description: Retrieve a list of messages in a bucket.
       operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get
@@ -56,7 +58,7 @@ paths:
       - BucketKey
       - Messages
     post:
-      summary: Create a message
+      summary: Post Buckets Messages
       description: Create a message.
       operationId: postBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-post
@@ -74,7 +76,7 @@ paths:
       - Messages
   /buckets/{bucketKey}/messages/{messageId}:
     get:
-      summary: Retrieve the details for a single message.
+      summary: Get Buckets Messages Messageid
       description: Retrieve the details for a single message..
       operationId: getBucketsBucketkeyMessagesMessage
       x-api-path-slug: bucketsbucketkeymessagesmessageid-get
@@ -93,6 +95,63 @@ paths:
       - BucketKey
       - Messages
       - MessageId
+  '/messages ':
+    ' post ':
+      summary: Post Messages
+      description: Creates an UI message.
+      operationId: postMessages
+      x-api-path-slug: messages-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+  '/messages/{id} ':
+    ' get ':
+      summary: Get Messages
+      description: Gets an existing UI message by Id.
+      operationId: getMessages
+      x-api-path-slug: messagesid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Id
+    ' put ':
+      summary: Put Messages
+      description: Updates an existing UI message.
+      operationId: putMessages
+      x-api-path-slug: messagesid-put
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Id
+    ' delete ':
+      summary: Delete Messages
+      description: Deletes an existing UI message.
+      operationId: deleteMessages
+      x-api-path-slug: messagesid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages
+      - Id
+  '/messages?active={active}&amp;customerId={customerId} ':
+    ' get ':
+      summary: Get Messages
+      description: Gets a list of UI messages. UI messages are used for user notifications
+        on announcements/information/warnings.
+      operationId: getMessagesActiveActive&amp;customerCustomer
+      x-api-path-slug: messagesactiveactiveampcustomeridcustomerid-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messages?active=active&amp;customerId=customerId
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

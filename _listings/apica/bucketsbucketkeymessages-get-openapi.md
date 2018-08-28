@@ -3,19 +3,21 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Messages API Retrieve a list of messages in a bucket
+  title: Messages API Get Buckets Messages
   version: 1.0.0
   description: Retrieve a list of messages in a bucket.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   /buckets/{bucketKey}/messages:
     delete:
-      summary: Clear a bucket (remove all messages).
+      summary: Delete Buckets Messages
       description: Clear a bucket (remove all messages)..
       operationId: deleteBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-delete
@@ -31,7 +33,7 @@ paths:
       - BucketKey
       - Messages
     get:
-      summary: Retrieve a list of messages in a bucket
+      summary: Get Buckets Messages
       description: Retrieve a list of messages in a bucket.
       operationId: getBucketsBucketkeyMessages
       x-api-path-slug: bucketsbucketkeymessages-get

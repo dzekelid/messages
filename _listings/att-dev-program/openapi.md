@@ -1,11 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: AT&T Dev Program
 x-complete: 1
 info:
-  title: AT&T API
-  description: this-is-a-complete-definition-of-the-att-api--needs-to-be-broken-into-separate-endpoints-
-  version: "1"
+  title: AT&T Dev Program Merged API
+  version: 1.0.0
 host: api.att.com
 basePath: /
 schemes:
@@ -33,79 +31,23 @@ paths:
       - Registrations
       - RegistrationId
       - Messages
-  /myMessages/v2/delta:
+  /mms/v3/messaging/outbox/{messageId}:
     get:
-      summary: Get My Delta
-      description: /myMessages/v2/delta
-      operationId: mymessagesv2delta
-      x-api-path-slug: mymessagesv2delta-get
+      summary: Get Mms Messaging Outbox Messageid
+      description: /mms/v3/messaging/outbox/{messageId}
+      operationId: mmsv3messagingoutboxmessageid
+      x-api-path-slug: mmsv3messagingoutboxmessageid-get
+      parameters:
+      - in: path
+        name: messageId
       responses:
         200:
           description: OK
       tags:
-      - MyMessages
-      - VDelta
-  /myMessages/v2/messages:
-    delete:
-      summary: Delete My Messages
-      description: /myMessages/v2/messages
-      operationId: mymessagesv2messages
-      x-api-path-slug: mymessagesv2messages-delete
-      responses:
-        200:
-          description: OK
-      tags:
-      - MyMessages
-      - VMessages
-    get:
-      summary: Get My Messages
-      description: /myMessages/v2/messages
-      operationId: mymessagesv2messages
-      x-api-path-slug: mymessagesv2messages-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - MyMessages
-      - VMessages
-    post:
-      summary: Post My Messages
-      description: /myMessages/v2/messages
-      operationId: mymessagesv2messages
-      x-api-path-slug: mymessagesv2messages-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - MyMessages
-      - VMessages
-  /myMessages/v2/messages/index:
-    post:
-      summary: Post My Messages Index
-      description: /myMessages/v2/messages/index
-      operationId: mymessagesv2messagesindex
-      x-api-path-slug: mymessagesv2messagesindex-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - MyMessages
-      - VMessages
-      - Index
-  /myMessages/v2/messages/index/info:
-    get:
-      summary: Get My Messages Index Info
-      description: /myMessages/v2/messages/index/info
-      operationId: mymessagesv2messagesindexinfo
-      x-api-path-slug: mymessagesv2messagesindexinfo-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - MyMessages
-      - VMessages
-      - Index
-      - Info
+      - Mms
+      - VMessaging
+      - Outbox
+      - MessageId
   /myMessages/v2/messages/{messageId}:
     delete:
       summary: Delete My Messages Messageid
@@ -157,16 +99,57 @@ paths:
       - MessageId
       - Parts
       - PartId
-  /myMessages/v2/notificationConnectionDetails:
+  /sms/v3/messaging/outbox/{messageId}:
     get:
-      summary: Get My Notificationconnectiondetails
-      description: /myMessages/v2/notificationConnectionDetails
-      operationId: mymessagesv2notificationconnectiondetails
-      x-api-path-slug: mymessagesv2notificationconnectiondetails-get
+      summary: Get SMS Messaging Outbox Messageid
+      description: /sms/v3/messaging/outbox/{messageId}
+      operationId: smsv3messagingoutboxmessageid
+      x-api-path-slug: smsv3messagingoutboxmessageid-get
+      parameters:
+      - in: path
+        name: messageId
       responses:
         200:
           description: OK
       tags:
-      - MyMessages
-      - VNotificationConnectionDetails
----
+      - Sms
+      - VMessaging
+      - Outbox
+      - MessageId
+  /3/messaging/outbound/{senderAddress}/requests:
+    post:
+      summary: Post Messaging Outbound Senderaddress Requests
+      description: /3/messaging/outbound/{senderAddress}/requests
+      operationId: 3messagingoutboundsenderaddressrequests
+      x-api-path-slug: 3messagingoutboundsenderaddressrequests-post
+      parameters:
+      - in: path
+        name: senderAddress
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messaging
+      - Outbound
+      - Senderress
+      - Requests
+  /3/messaging/outbound/{senderAddress}/{requestId}/deliveryInfos:
+    get:
+      summary: Get Messaging Outbound Senderaddress Requestid Deliveryinfos
+      description: /3/messaging/outbound/{senderAddress}/{requestId}/deliveryInfos
+      operationId: 3messagingoutboundsenderaddressrequestiddeliveryinfos
+      x-api-path-slug: 3messagingoutboundsenderaddressrequestiddeliveryinfos-get
+      parameters:
+      - in: path
+        name: requestId
+      - in: path
+        name: senderAddress
+      responses:
+        200:
+          description: OK
+      tags:
+      - Messaging
+      - Outbound
+      - Senderress
+      - RequestId
+      - DeliveryInfos

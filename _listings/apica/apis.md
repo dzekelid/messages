@@ -7,119 +7,177 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Messages
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Messages API Clear a bucket (remove all messages).
-  x-api-slug: messages-api
+- name: Messages API - Delete Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-delete
   description: Clear a bucket (remove all messages)..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: ://///buckets/{bucketKey}/messages
-  tags: Buckets,BucketKey,Messages
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessages-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessages-delete-openapi.md
-- name: Messages API Retrieve a list of messages in a bucket
-  x-api-slug: messages-api
+- name: Messages API - Get Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-get
   description: Retrieve a list of messages in a bucket.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: ://///buckets/{bucketKey}/messages
-  tags: Buckets,BucketKey,Messages
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessages-get-openapi.md
-- name: Messages API Create a message
-  x-api-slug: messages-api
+- name: Messages API - Post Buckets Messages
+  x-api-slug: bucketsbucketkeymessages-post
   description: Create a message.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: ://///buckets/{bucketKey}/messages
-  tags: Buckets,BucketKey,Messages
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessages-post-openapi.md
-- name: Messages API Retrieve the details for a single message.
-  x-api-slug: messages-api
+- name: Messages API - Get Buckets Messages Messageid
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
   description: Retrieve the details for a single message..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: ://///buckets/{bucketKey}/messages/{messageId}
-  tags: Buckets,BucketKey,Messages,MessageId
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessagesmessageid-get-openapi.md
-- name: Messages API Messages?active={active}&amp;customerId={customerId}
-  x-api-slug: messages-api
+- name: Messages API - Post Messages
+  x-api-slug: messages-post
+  description: Creates an UI message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messages-post-openapi.md
+- name: Messages API - Get Messages
+  x-api-slug: messagesid-get
+  description: Gets an existing UI message by Id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-get-openapi.md
+- name: Messages API - Put Messages
+  x-api-slug: messagesid-put
+  description: Updates an existing UI message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-put-openapi.md
+- name: Messages API - Delete Messages
+  x-api-slug: messagesid-delete
+  description: Deletes an existing UI message.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-delete-openapi.md
+- name: Messages API - Get Buckets Messages Messageid
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Messages API - Get Messages
+  x-api-slug: messagesactiveactiveampcustomeridcustomerid-get
   description: Gets a list of UI messages. UI messages are used for user notifications
     on announcements/information/warnings.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///messages?active={active}&amp;customerId={customerId} '
-  tags: Messages?active=active&amp;customerId=customerId
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesactiveactiveampcustomeridcustomerid-get-openapi.md
-- name: Messages API Messages
-  x-api-slug: messages-api
-  description: Creates an UI message.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: '://///messages '
-  tags: Messages
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messages-post-openapi.md
-- name: Messages API Messages {id}
-  x-api-slug: messages-api
-  description: Gets an existing UI message by Id.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: '://///messages/{id} '
-  tags: Messages,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-get-openapi.md
-- name: Messages API Messages {id}
-  x-api-slug: messages-api
-  description: Updates an existing UI message.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: '://///messages/{id} '
-  tags: Messages,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-put-openapi.md
-- name: Messages API Messages {id}
-  x-api-slug: messages-api
-  description: Deletes an existing UI message.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: '://///messages/{id} '
-  tags: Messages,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesid-delete-openapi.md
-- name: Messages API
-  x-api-slug: messages-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
+- name: Messages API - Get Buckets Messages Messageid
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message..
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
   baseURL: :///
-  tags: Messages
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Messages API - Get Messages
+  x-api-slug: messagesactiveactiveampcustomeridcustomerid-get
+  description: Gets a list of UI messages. UI messages are used for user notifications
+    on announcements/information/warnings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesactiveactiveampcustomeridcustomerid-get-openapi.md
+- name: Messages API - Get Buckets Messages Messageid
+  x-api-slug: bucketsbucketkeymessagesmessageid-get
+  description: Retrieve the details for a single message..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/bucketsbucketkeymessagesmessageid-get-openapi.md
+- name: Messages API - Get Messages
+  x-api-slug: messagesactiveactiveampcustomeridcustomerid-get
+  description: Gets a list of UI messages. UI messages are used for user notifications
+    on announcements/information/warnings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/apica/messagesactiveactiveampcustomeridcustomerid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apica.stack.network
 - type: x-blog
   url: https://www.apicasystem.com/blog/
 - type: x-blog-rss

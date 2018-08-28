@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Urban Airship
 x-complete: 1
@@ -232,4 +231,3 @@ paths:
       - Id
       - Messages
       - Delete
----

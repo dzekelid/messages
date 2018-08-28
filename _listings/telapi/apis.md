@@ -1,29 +1,22 @@
 ---
 name: TelAPI
-description: TelAPI providers developers with a cloud based telephony platform with
-  advanced telecom features and customizations not available in other cloud communications
-  APIs. TelAPI provides the ability to send SMS messages, and manage quote for each
-  account. The platform also provides a free trial for developers, with pay as you
-  go, unit based pricing to pay for services that go beyond trial access.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1176_logo.png
+x-slug: telapi
+description: Zang offers business communications tools & voice app development platforms
+  that bring innovation and ease to unified communications & collaboration solutions.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Voice
-- Voice
-- Telco
-- Target
-- Stack Network
-- SMS API
-- SMS
-- Messaging
-- Messaging
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/messaging/master/_listings/telapi/apis.yaml
+x-alexaRank: "1071695"
+tags: Messages
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/messages/master/_listings/telapi/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://taxamo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://telapi.stack.network
 - type: x-base
   url: https://api.telapi.com
 - type: x-blog
@@ -34,6 +27,8 @@ x-common:
   url: http://www.telapi.com/contact
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/telapi
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/zang-io
 - type: x-developer
   url: http://www.telapi.com/docs/
 - type: x-email
@@ -52,8 +47,12 @@ x-common:
   url: https://www.telapi.com/legal/tos
 - type: x-twitter
   url: https://twitter.com/TelAPI
+- type: x-twitter
+  url: https://twitter.com/Zang_io
 - type: x-website
   url: http://www.telapi.com
+- type: x-website
+  url: http://telapi.com
 include: []
 maintainers:
 - FN: Kin Lane
